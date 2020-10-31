@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width-device-width, initial-scales = 1.0">
+    <meta http-equiv="X-UA-Compatible" content="">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Top Earners</title>	
+</head>
+<body>
+    <header class=".head">
+        <img src="image/logo.png" class="logo" width="300">
+        <button class="dropbtn">&#9660;
+            <a href="#" style="text-decoration: none"> <img src="image/flag1.png" class="flag" width="-500%"> &nbsp;<b class="lang">English</b></a>
+        </button>
+        <div class="dropdown">
+           
+               <div class="dropdown-content"> 
+        </div>
+        </div>
+        <div class="btn">
+         <button class="btn1"><a href="#" class="ref">Getting Started</a></button>
+         <button class="btn2"><a href="#" class="ref">Login</a></button>
+         <img src="image/group 89.png" class="grp89">
+        </div>
+    </header>
+    <section>
+        <div class="sect1">
+            <div class="para">
+                <h1 class="h1"> Top Earners <b class="fx">Fx</b> <br> Trading Academy</h1>
+                <p class="para1"><b>All resources, informations and <br>tiops for good trading in one place.</b></p>
+                <button class="btn3"> Open Free Account </button>
+            </div>
+            <div>
+                <img src="image/Rectangle 66.svg" class="orange">
+                <img src="image/Group 71.svg" class="grp71">  
+            </div>
+        </div>
+        <div class="sect2">
+            <h2 class="para2"><b><strong>We offer you the <br> best services.</strong></b></h2>
+            <img src="image/yellow2.png" class="ellipse3">
+            <img src="image/yellow.png" class="ellipse4">
+            <img src="image/coffee.jpg" class="coffee">
+        </div>
+    </section>
+    <section>
+        <button class ="btn4" onclick="plusDivs(1)"&#10094;> View all</button>
+        <div class ="visible">
+            <div>
+                <img src="image/chart 1.svg" class="stock1">  <br>
+                <br>
+                <h2 class="mf1">Market Forcast</h2>
+                 <p class="p1">flkvmrjmrpg]re0<br>dpovk]p]bfjbfdibjfbmLV<br>fdgmf;ok;FlgnkEOPFJ</p>
+            </div>
+            <div>
+                <img src="image/businessmen-trading-communication 1.svg" class="stock2">  <br>
+                <br>
+                <h2 class="mf2">Market Forcast</h2>
+                <p class="p2">flkvmrjmrpg]re0<br>dpovk]p]bfjbfdibjfbmLV<br>fdgmf;ok;FlgnkEOPFJ</p>
+            </div>
+            <div>
+                <img src="image/stock 1.svg" class="stock3"><br>
+                <br>
+                <h2 class="mf3">Market Forcast</h2>
+                <p class="p3">flkvmrjmrpg]re0<br>dpovk]p]bfjbfdibjfbmLV<br>fdgmf;ok;FlgnkEOPFJ</p>
+            </div>
+        </div> 
+        <div class ="visible">   
+            <div>
+                <img src="image/stock 2.svg" class="stock4">  <br>
+                <br>
+                <h2 class="mf4">Market Forcast</h2>
+                <p class="p4">flkvmrjmrpg]re0<br>dpovk]p]bfjbfdibjfbmLV<br>fdgmf;ok;FlgnkEOPFJ</p>
+            </div>
+            <div>
+                <img src="image/stock 3.svg" class="stock5">  <br>
+                <br>
+                <h2 class="mf5">Market Forcast</h2>
+                <p class="p5">flkvmrjmrpg]re0<br>dpovk]p]bfjbfdibjfbmLV<br>fdgmf;ok;FlgnkEOPFJ</p>
+            </div>
+            <div>
+                <img src="image/stock 4.svg" class="stock6">  <br>
+                <br>
+                <h2 class="mf6">Market Forcast</h2>
+                <p class="p6">flkvmrjmrpg]re0<br>dpovk]p]bfjbfdibjfbmLV<br>fdgmf;ok;FlgnkEOPFJ</p>
+            </div>
+        </div>
+    </section>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var y = document.getElementByClassName("visible");
+  if (n > y.width) {slideIndex = 1}
+  if (n < 1) {slideIndex = y.width}
+  for (i = 0; i < y.width; i++) {
+    y[i].style.display = "none";  
+  }
+  y[slideIndex-1].style.display = "";  
+}
+</script>
+
+</body>
+</html>
